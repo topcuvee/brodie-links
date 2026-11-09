@@ -81,7 +81,8 @@ a:focus-visible{outline:1px solid var(--navy);outline-offset:3px}
 .primary:active{background:#4A453F}
 .primary:focus-visible{outline-offset:4px}
 
-nav{margin-top:40px;border-top:1px solid var(--navy)}
+.ways{margin:40px 0 14px;font-family:var(--mono);font-weight:300;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--stone-text);line-height:1.5}
+nav{border-top:1px solid var(--navy)}
 ul{list-style:none}
 li{border-bottom:1px solid var(--warm-mid)}
 .row{
@@ -114,7 +115,8 @@ footer{margin-top:40px;text-align:center;font-family:var(--mono);font-weight:300
 
   <a class="primary fade d2" href="/brodie-meah.vcf" download="brodie-meah.vcf">Save my contact</a>
 
-  <nav class="fade d3" aria-label="Find me elsewhere">
+  <h2 id="ways" class="ways fade d3">Ways to connect with me</h2>
+  <nav class="fade d3" aria-labelledby="ways">
     <ul>
       <li><a class="row" href="/whatsapp" target="_blank" rel="noopener">WhatsApp <span class="h">Message me</span><span class="sr">, opens in a new tab</span></a></li>
       <li><a class="row" href="https://www.facebook.com/brodie.meah/" target="_blank" rel="noopener">Facebook <span class="h">Brodie Meah</span><span class="sr">, opens in a new tab</span></a></li>
