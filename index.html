@@ -68,6 +68,9 @@ h1{font-weight:300;font-size:clamp(38px,11vw,48px);line-height:1.1;letter-spacin
 a{color:inherit;text-decoration:none;-webkit-tap-highlight-color:transparent}
 a:focus-visible{outline:1px solid var(--navy);outline-offset:3px}
 
+.inline{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.2em;text-decoration-color:var(--stone);transition:text-decoration-color 300ms var(--ease)}
+.inline:hover,.inline:active{text-decoration-color:var(--ink)}
+
 .primary{
   display:flex;align-items:center;justify-content:center;min-height:56px;width:100%;
   background:var(--ink);color:var(--parchment);
@@ -107,7 +110,7 @@ footer{margin-top:40px;text-align:center;font-family:var(--mono);font-weight:300
     <p class="label">Founder · Operator · Investor</p>
   </header>
 
-  <p class="bio fade d1">Seven years building Top Cuvée, a London wine business. Now bringing that operating discipline to property. Looking for deals, partners and people who've done it.</p>
+  <p class="bio fade d1">Seven years building <a class="inline" href="https://www.topcuvee.com" target="_blank" rel="noopener">Top Cuvée<span class="sr"> (opens in a new tab)</span></a>, a London wine business. Now bringing that operating discipline to property. Looking for deals, partners and people who've done it.</p>
 
   <a class="primary fade d2" href="/brodie-meah.vcf" download="brodie-meah.vcf">Save my contact</a>
 
