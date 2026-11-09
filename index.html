@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Brodie Meah</title>
+<meta name="description" content="Seven years building Top Cuvée, a London wine business. Now bringing that operating discipline to property. Looking for deals, partners and people who've done it.">
+<meta name="theme-color" content="#F4F0E8">
+<link rel="canonical" href="https://brodiemeah.netlify.app/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Brodie Meah">
+<meta property="og:title" content="Brodie Meah">
+<meta property="og:description" content="Seven years building Top Cuvée, a London wine business. Now bringing that operating discipline to property. Looking for deals, partners and people who've done it.">
+<meta property="og:url" content="https://brodiemeah.netlify.app/">
+<meta property="og:image" content="https://brodiemeah.netlify.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Brodie Meah — Founder, Operator, Investor">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Brodie Meah">
+<meta name="twitter:description" content="Seven years building Top Cuvée, a London wine business. Now bringing that operating discipline to property. Looking for deals, partners and people who've done it.">
+<meta name="twitter:image" content="https://brodiemeah.netlify.app/og-image.png">
+<meta name="twitter:image:alt" content="Brodie Meah — Founder, Operator, Investor">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" type="image/webp" href="/img/headshot-400.webp" imagesrcset="/img/headshot-400.webp 400w, /img/headshot-800.webp 800w" imagesizes="200px">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&amp;family=Fraunces:wght@300&amp;display=swap">
+
+<style>
+:root{
+  --parchment:#F4F0E8;
+  --ink:#1A1714;
+  --stone:#9B9189;      /* brand Stone: decorative use only, fails AA for text */
+  --stone-text:#645C54; /* Stone darkened to pass AA on Parchment and Warm Mid */
+  --warm-mid:#E8E0D0;
+  --navy:#1D3461;
+  --ease:cubic-bezier(0.25,0.1,0.1,1.0);
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --mono:"DM Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;background:var(--parchment)}
+body{
+  background:var(--parchment);color:var(--ink);
+  font-family:var(--serif);font-weight:300;line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  padding:max(40px,env(safe-area-inset-top)) max(24px,env(safe-area-inset-right)) max(32px,env(safe-area-inset-bottom)) max(24px,env(safe-area-inset-left));
+}
+main{max-width:440px;margin:0 auto}
+.fade{animation:rise 400ms var(--ease) both}
+.d1{animation-delay:60ms}.d2{animation-delay:120ms}.d3{animation-delay:180ms}.d4{animation-delay:240ms}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+header{text-align:center}
+.portrait{display:block;width:200px;height:200px;margin:0 auto 28px;border-radius:50%}
+h1{font-weight:300;font-size:clamp(38px,11vw,48px);line-height:1.1;letter-spacing:-.01em}
+.rule{border:0;height:1px;background:var(--navy);margin:20px 0 16px}
+.label{font-family:var(--mono);font-weight:300;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--stone-text);line-height:1.5}
+
+.bio{margin:32px 0;font-size:18px;line-height:1.6;text-align:center;text-wrap:balance}
+
+a{color:inherit;text-decoration:none;-webkit-tap-highlight-color:transparent}
+a:focus-visible{outline:1px solid var(--navy);outline-offset:3px}
+
+.primary{
+  display:flex;align-items:center;justify-content:center;min-height:56px;width:100%;
+  background:var(--ink);color:var(--parchment);
+  font-family:var(--mono);font-weight:400;font-size:13px;letter-spacing:.16em;text-transform:uppercase;
+  transition:background-color 300ms var(--ease),letter-spacing 300ms var(--ease);
+}
+.primary:hover{background:#34302B;letter-spacing:.19em}
+.primary:active{background:#4A453F}
+.primary:focus-visible{outline-offset:4px}
+
+nav{margin-top:40px;border-top:1px solid var(--navy)}
+ul{list-style:none}
+li{border-bottom:1px solid var(--warm-mid)}
+.row{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px;
+  margin:0 -12px;padding:0 12px;
+  font-family:var(--mono);font-weight:400;font-size:13px;letter-spacing:.14em;text-transform:uppercase;
+  transition:background-color 300ms var(--ease);
+}
+.row .h{font-weight:300;font-size:11px;letter-spacing:.1em;color:var(--stone-text);transition:color 300ms var(--ease)}
+.row:hover,.row:active{background:var(--warm-mid)}
+.row:hover .h,.row:active .h{color:var(--ink)}
+.row:focus-visible{outline-offset:-1px}
+
+footer{margin-top:40px;text-align:center;font-family:var(--mono);font-weight:300;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--stone-text)}
+
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (prefers-reduced-motion:reduce){.fade{animation:none}.primary,.row,.row .h{transition:none}}
+</style>
+</head>
+<body>
+<main>
+  <header class="fade">
+    <img class="portrait" src="/img/headshot-400.webp" srcset="/img/headshot-400.webp 400w, /img/headshot-800.webp 800w" sizes="200px" width="200" height="200" alt="Brodie Meah" fetchpriority="high" decoding="async">
+    <h1>Brodie Meah</h1>
+    <hr class="rule">
+    <p class="label">Founder · Operator · Investor</p>
+  </header>
+
+  <p class="bio fade d1">Seven years building Top Cuvée, a London wine business. Now bringing that operating discipline to property. Looking for deals, partners and people who've done it.</p>
+
+  <a class="primary fade d2" href="/brodie-meah.vcf" download="brodie-meah.vcf">Save my contact</a>
+
+  <nav class="fade d3" aria-label="Find me elsewhere">
+    <ul>
+      <li><a class="row" href="/whatsapp" target="_blank" rel="noopener">WhatsApp <span class="h">Message me</span><span class="sr">, opens in a new tab</span></a></li>
+      <li><a class="row" href="https://www.facebook.com/brodie.meah/" target="_blank" rel="noopener">Facebook <span class="h">Brodie Meah</span><span class="sr">, opens in a new tab</span></a></li>
+      <li><a class="row" href="https://www.linkedin.com/in/brodie-meah-2634a3160/" target="_blank" rel="noopener">LinkedIn <span class="h">Brodie Meah</span><span class="sr">, opens in a new tab</span></a></li>
+      <li><a class="row" href="https://www.instagram.com/brodiemeah/" target="_blank" rel="noopener">Instagram <span class="h">@brodiemeah</span><span class="sr">, opens in a new tab</span></a></li>
+      <li><a class="row" href="https://substack.com/@brodiemeah" target="_blank" rel="noopener">Substack <span class="h">@brodiemeah</span><span class="sr">, opens in a new tab</span></a></li>
+    </ul>
+  </nav>
+
+  <footer class="fade d4">London</footer>
+</main>
+</body>
+</html>
